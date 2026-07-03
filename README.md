@@ -26,7 +26,10 @@ Windows SmartScreen により「PC が保護されました」と表示される
 安全性確認のためのツールのみを公開しています。
 
 te_ai_cobo_runtime.zipのハッシュ値
-SHA256    0ff4de1d508a0c08be51ba751db33a563e0e26a6555c63c7c9f3ac1acc9bda0a
+SHA256    4d2b804796bbcd124c31930dd2e2510cfc1d142b11b4af28d9cb779b50088013
+
+ts_ai_kobo_runtime.exeのハッシュ値
+AHA256    45c573f395d656148999d8f2efd9cdfeac675dc640dfc6ed982f31a5aa6c730f
 
 ---
 
