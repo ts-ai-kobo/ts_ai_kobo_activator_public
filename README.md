@@ -20,8 +20,8 @@ Windows SmartScreen により「PC が保護されました」と表示される
 製品本体や DRM の内部構造は含まれておらず、  
 安全性確認のためのツールのみを公開しています。
 
-te_ai_cobo_runtime.exeのハッシュ値
-SHA256    8ea8f07bb13289e1b8cf60bb915d2188fc73779ec7575e71d8ba3abe2f0955bf
+te_ai_cobo_runtime.zipのハッシュ値
+SHA256    0ff4de1d508a0c08be51ba751db33a563e0e26a6555c63c7c9f3ac1acc9bda0a
 
 ---
 
