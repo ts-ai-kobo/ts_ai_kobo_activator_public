@@ -1,8 +1,9 @@
 # はじめに
-1. GitHub Releases ページから ts_ai_kobo_runtime.zip をダウンロードしてください。この画面の右ペインの中にあります。
-2. ZIP を展開してください。
-3. 展開したフォルダ内の ts_ai_kobo_runtime.exe を実行してください。
-4. フォルダ構成を変更すると動作しません。
+1. GitHub Releases ページから ts_ai_kobo_runtime.zip をダウンロードしてください。
+2. この画面の右ペインの中にあります。
+3. ZIP を展開してください。
+4. 展開したフォルダ内の ts_ai_kobo_runtime.exe を実行してください。
+5. フォルダ構成を変更すると動作しません。
 
 Windows SmartScreen により「PC が保護されました」と表示される場合があります。
 これは本アプリが新規に作成された実行ファイルであり、
