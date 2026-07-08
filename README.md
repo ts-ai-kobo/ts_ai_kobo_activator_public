@@ -1,3 +1,9 @@
+※ English version is available below. Please scroll down if you prefer English.
+
+## Developer Philosophy
+理念全文はこちら  
+→ [Developer Philosophy & Ethical Statement](PHILOSOPHY.md)
+
 # はじめに
 1. GitHub Releases ページから ts_ai_kobo_runtime.zip をダウンロードしてください。
 2. この画面の右ペインの中にあります。
@@ -144,3 +150,147 @@ ts_ai_kobo の Activator は以下のように安全な構造で設計されて�
 ## ✔ お問い合わせ
 
 製品に関するご質問は販売ページよりお問い合わせください。
+
+
+
+## English Manual
+
+## Developer Message (English Version)
+
+Below is the English version of the developer message.  
+This section explains the philosophy, purpose, and safety considerations behind the ts_ai_kobo Activator.
+
+---
+
+## Introduction
+Please download **ts_ai_kobo_runtime.zip** from the **GitHub Releases** page.  
+It is located in the right-hand pane of this repository.
+
+Do **not** use the green “Code → Download ZIP” button above.  
+That ZIP does not contain the correct runtime structure and will not work properly.
+
+1. Download ts_ai_kobo_runtime.zip from Releases  
+2. Extract the ZIP  
+3. Run **ts_ai_kobo_runtime.exe** inside the extracted folder  
+4. Do not change the folder structure — the application will not function if modified
+
+Windows SmartScreen may display “This PC is protected” because this executable is newly created and does not yet have a code-signing certificate.  
+Click **“More info” → “Run anyway”** to proceed.
+
+This application operates **fully offline**, performs **no external communication**, does **not self-replicate**, and does **not remain resident**.  
+It does not exhibit any behavior associated with malware.
+
+---
+
+## About the ts_ai_kobo Activator (Pre‑Purchase Safety Check)
+
+This application generates a **unique Activation ID** tied to your PC.  
+It is used to issue a license that allows only your machine to run the product, preventing unauthorized copying or misuse.
+
+This repository provides the Activator so that users can **verify that their security software does not falsely flag the application** before purchasing the product.
+
+The product itself, DRM logic, and internal mechanisms are **not included** here.  
+Only the safety-check tool is published.
+
+**SHA256 hash of ts_ai_kobo_runtime.zip**  
+4d2b804796bbcd124c31930dd2e2510cfc1d142b11b4af28d9cb779b50088013
+
+**SHA256 hash of ts_ai_kobo_runtime.exe**  
+45c573f395d656148999d8f2efd9cdfeac675dc640dfc6ed982f31a5aa6c730f
+
+---
+
+## Why the Activator Is Publicly Available
+Modern security software relies heavily on heuristic (behavior-based) detection.  
+Even safe applications may be incorrectly flagged depending on their internal operations.
+
+The ts_ai_kobo Activator is designed with safety in mind:
+
+- Fully offline operation  
+- No transmission of personal data  
+- No self-replication  
+- No resident processes  
+- No encryption routines  
+- Writes only a single file (nonce.json) to ProgramData  
+
+However, heuristic detection varies by environment, and **false positives cannot be completely eliminated**.
+
+To protect users and ensure transparency, the Activator is published so that anyone can freely test it in their own environment **before purchasing**.
+
+This allows users to:
+
+- Confirm that no virus warnings occur  
+- Purchase with confidence  
+- Avoid misunderstandings or unnecessary support issues  
+- Prevent concerns such as “I was forced to install something dangerous”
+
+This publication is for **user protection and transparency**.
+
+---
+
+## If a Virus Warning Occurs
+Although the Activator contains no malicious behavior, false positives may occur depending on your security software.
+
+If this happens:
+
+1. Update your security software  
+2. Scan the Activator again  
+3. Add an exclusion if necessary  
+4. Contact the seller with the detection details  
+5. Submit a false-positive report to your security vendor  
+
+---
+
+## If You Feel Uncertain, Please Do Not Purchase
+While the Activator is designed to be safe,  
+**false positives cannot be completely prevented** due to differences in user environments.
+
+If you feel uneasy about this,  
+**please refrain from purchasing the product.**  
+This is to ensure your peace of mind.
+
+---
+
+## What This Tool Can Do
+- Generate an Activation ID for your PC  
+- Allow the seller to create a personalized installer  
+- Operate entirely offline without sending any personal data  
+
+---
+
+## What This Tool Cannot Do
+- Install the product  
+- Launch the product  
+- Modify licenses  
+- Remove DRM  
+- Download the product itself  
+
+---
+
+## How to Use
+1. Download Activator.exe  
+2. Run it and read the explanation to the end  
+3. Check the agreement box  
+4. Click “Generate Activation ID”  
+5. Send the displayed ID to the seller  
+6. Wait for your personalized installer  
+
+---
+
+## Important Notes
+- The tool relies on the folder **C:\ProgramData\ts_ai_kobo**  
+- Deleting, moving, or modifying this folder will break the product  
+- Resale and reverse engineering are prohibited  
+- Use of this application is governed by the license agreement; copyright is not waived  
+
+---
+
+## About the Product
+This repository does **not** contain the product itself, DRM logic, or encryption nodes.  
+A personalized installer will be provided after purchase.
+
+---
+
+## Contact
+For product-related questions, please contact the seller through the official sales page.
+
