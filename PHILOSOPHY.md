@@ -1,0 +1,224 @@
+# Developer Philosophy & Ethical Statement  
+※ English version is available below. Please scroll down if you prefer English.
+
+---
+
+# 開発者メッセージ
+
+## はじめに
+AI が急速に広まり、GPU を前提とした巨大な計算資源が当たり前になりつつある今、
+「誰もが自由に創作できる環境」はむしろ狭まっているように感じています。
+
+高価な GPU を買えない人、クラウドの課金に怯える人、
+規制や企業ルールで創作を止められる人。
+AI は本来、誰にでも開かれた技術であるはずなのに、
+その入り口はどんどん高く、狭くなっている。
+
+私はその状況に違和感を覚えました。
+
+---
+
+## CPUで戦うという選択
+AI は魔法の箱ではありません。
+膨大な学習データと莫大な開発費用、そして緻密な技術の積み重ねで成り立っています。
+だからこそ、GPU がなくても、時間を味方につければ、
+CPU だけでも十分に戦えるはずだと考えました。
+
+- 課金なし  
+- 失敗しても損しない  
+- 自分の環境で完結  
+- ノートPCでも動く  
+- 依存関係に振り回されない  
+- 規制や検閲に左右されない  
+
+「自分の持っている環境で、気兼ねなく試せる」  
+その自由を守りたかった。
+
+---
+
+## なぜこのツールを作ったのか
+GPU 勢力には速度では勝てません。
+しかし、CPU はあなたが寝ている間も、作業している間も、黙々と動き続けます。
+
+私は、ComfyUI が CPU 非対応になりつつある流れに対して、
+“CPUでも戦える道を残す”ために、
+依存関係を自作ノードで解決し、
+ローカル環境だけで動く生成 AI ツールを開発しました。
+
+これは反抗ではなく、
+「公平性を守るための選択」です。
+
+---
+
+## AI社会への違和感
+AI は期待感だけで語られ、
+株のように「波に乗れば儲かる」という幻想が広がっています。
+
+しかし現実は、
+
+- 無料枠は宣伝のための一時的なもの  
+- 規制は増え続け  
+- 生成サービスは次々と停止し  
+- 課金は当たり前になり  
+- 技術格差が収入格差につながり  
+- 創作の自由は企業ルールに縛られていく  
+
+そんな世界で、
+「AIがないと生きられない」と思わされるような空気が広がっている。
+
+私はその構造に疑問を持っています。
+
+---
+
+## 倫理と対価について
+私は搾取するような仕事はしません。
+企業の奴隷になる気もありません。
+
+ただし、私は仙人ではありません。
+霞を食べて生きていけるわけではない。
+開発には時間も労力もかかる。
+だから、必要な対価はいただきます。
+
+安売りはしません。
+その代わり、価値は必ず提供します。
+
+---
+
+## あなたへ
+あなたが絵を描けなくても、
+あなたの CPU がゆっくりと画像を生成し、
+あなたのキャラクターにポーズを付け、
+あなたの創作活動を助けることができる。
+
+これは魔法の箱ではありません。
+ただ、あなたが自由に使えるように、
+必要な機能をわかりやすくまとめたインターフェースです。
+
+そして、あなたが ComfyUI を自由に使いこなせる頃には、
+GPU がもっと身近な価格になっていることを願っています。
+
+---
+
+## 最後に
+私は、金片で人の頬を殴るような社会に、
+小さくても確かな一石を投じたい。
+
+できることを、できる環境で、できる限りやる。
+あなたの創作が、あなた自身の力で前に進むことを願っています。
+
+**制作者より**
+
+---
+
+# Developer Message (English Version)
+
+## Introduction
+As AI rapidly expands and GPU‑based computation becomes the default,
+I feel that the environment where “anyone can freely create” is actually shrinking.
+
+People who cannot afford expensive GPUs,  
+people afraid of cloud‑based billing,  
+people restricted by corporate rules or platform regulations.  
+AI should be a technology open to everyone, yet the entrance is becoming higher and narrower.
+
+I felt a strong sense of discomfort with this situation.
+
+---
+
+## Choosing to Fight with the CPU
+AI is not a magical box.  
+It is built on massive datasets, enormous development costs,  
+and countless layers of engineering.
+
+That is why I believe that—even without a GPU—  
+you can still fight, as long as you let **time** be your ally.
+
+- No billing  
+- No financial penalty for failed attempts  
+- Fully local execution  
+- Works even on a laptop  
+- No dependency hell  
+- No platform restrictions or censorship  
+
+I wanted to protect the freedom of  
+“experimenting comfortably within your own environment.”
+
+---
+
+## Why I Created This Tool
+The GPU world wins in speed.  
+But the CPU never sleeps.  
+It keeps working while you sleep, while you do other tasks.
+
+As ComfyUI gradually moves away from CPU support,  
+I wanted to **preserve a path for CPU users**.
+
+I built custom nodes, resolved dependencies,  
+and created a fully local AI generation tool.
+
+This is not rebellion.  
+It is a **choice made to preserve fairness**.
+
+---
+
+## Concerns About the Current AI Landscape
+AI is often discussed with hype and unrealistic expectations—  
+as if “riding the wave” guarantees success.
+
+But reality is:
+
+- Free tiers are temporary marketing tools  
+- Regulations keep increasing  
+- Services shut down one after another  
+- Paid usage becomes the norm  
+- Technical inequality becomes income inequality  
+- Creative freedom is restricted by corporate rules  
+
+We are being pushed into a world where  
+“you cannot live without AI.”
+
+I question this structure.
+
+---
+
+## Ethics and Compensation
+I do not engage in exploitative work.  
+I refuse to be a corporate slave.
+
+But I am not a monk.  
+I cannot live on air.  
+Development requires time and effort.  
+Therefore, I must receive compensation.
+
+I do not sell cheaply.  
+But I always deliver value.
+
+---
+
+## To You
+Even if you cannot draw,  
+your CPU can slowly generate images,  
+pose your characters,  
+and support your creative work.
+
+This is not a magical box.  
+It is simply an interface designed  
+to make essential functions easy to use.
+
+And by the time you master ComfyUI,  
+I hope GPUs will be more accessible.
+
+---
+
+## In Closing
+I want to throw even a small stone  
+at a society where money is used like a weapon.
+
+Do what you can,  
+with the environment you have,  
+as much as you can.
+
+I hope your creative work moves forward  
+by your own strength.
+
+**From the Developer**
