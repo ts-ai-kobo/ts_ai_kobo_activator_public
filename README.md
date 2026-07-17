@@ -5,7 +5,8 @@
 → [Developer Philosophy & Ethical Statement](PHILOSOPHY.md)
 
 製品マニュアルはこちら
-→ [📄 TsAI_Pose_engine_manual.pdf](TsAI_Pose_engine_manual.pdf)
+→ [📥 TsAI_Pose_engine_manual.pdf をダウンロード](https://github.com/ts-ai-kobo/ts_ai_kobo_activator_public/edit/main/TsAI_Pose_engine_manual.pdf)
+
 
 🟦 購入前の重要なご案内
 本製品をご検討いただく際は、製品マニュアルと以下の内容を必ずご確認ください。
