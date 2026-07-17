@@ -4,6 +4,9 @@
 理念全文はこちら  
 → [Developer Philosophy & Ethical Statement](PHILOSOPHY.md)
 
+製品マニュアルはこちら
+→ [📄 TsAI_Pose_engine_manual.pdf](TsAI_Pose_engine_manual.pdf)
+
 🟦 購入前の重要なご案内
 本製品をご検討いただく際は、製品マニュアルと以下の内容を必ずご確認ください。
 内容にご同意いただけない場合は、購入はお控えください。
