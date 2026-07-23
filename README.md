@@ -26,6 +26,18 @@ Stable Diffusion 1.x モデルはロード時に 9〜11GB のピークメモリ�
 メモリ不足により生成処理が失敗します。
 本製品は「単独で実行すること」を前提としています。
 
+【必須ランタイム】
+本ソフトウェアの起動には、Microsoft Visual C++ 再頒布可能パッケージ
+（VC++ Runtime）が必要です。
+
+Windows Sandbox やクリーンインストール環境では
+VC++ が入っていない場合があり、その場合はアプリが起動しません。
+
+事前に以下をインストールしてください：
+・Visual C++ 2015-2022 再頒布可能パッケージ（x64）
+
+VC++ が未導入の環境は動作保証外となります。
+
 上記条件に同意できない場合は、購入をお控えください。
 
 🟦 アクティベーションIDとDRMワンタイムインストーラーについて
@@ -246,29 +258,42 @@ ts_ai_kobo の Activator は以下のように安全な構造で設計されて�
 
 製品に関するご質問は販売ページよりお問い合わせください。
 
-🟦 Important notice before purchase  
-Before considering the purchase of this product, please make sure to read the product manual and the information below.  
+🟦 Important Notice Before Purchase
+Before considering this product, please make sure to read the product manual
+and the information below.  
 If you do not agree with the contents, please refrain from purchasing.  
-This product will not be sold at a discount. It is intended only for those who understand and agree with these terms.
+This product will not be discounted. It is intended only for users who fully
+understand and agree with these terms.
 
 【Purchase Requirements (Important)】
-
-This product only works in environments that meet BOTH of the following conditions:
+This product only works in environments that meet BOTH of the following:
 - **16GB or more physical memory**
-- **Running the application alone (no other apps running simultaneously)**
+- **Running the application alone (no other applications running simultaneously)**
 
 Stable Diffusion 1.x models require **9–11GB of peak memory** when loading.
 For this reason, any environment with **less than 16GB of RAM cannot launch the product**.
 
-**8GB or 4GB environments (including Windows Sandbox) are not supported.**
-In these environments, the model cannot be loaded and image generation is impossible.
+**8GB or 4GB environments (including Windows Sandbox) are not supported.**  
+In these environments, the model cannot be loaded and image generation is impossible.  
 If your PC has less than 16GB of RAM, **do NOT purchase this product.**
 
 Even on a 16GB system, running other applications at the same time may cause
 memory shortages and generation failures.  
 This product is designed to run **as the only active application**.
 
-If you cannot agree to these conditions, please refrain from purchasing.
+【Required Runtime】
+This software requires the **Microsoft Visual C++ Redistributable (VC++ Runtime)**  
+to run.
+
+Windows Sandbox and clean-install environments may not include VC++ by default.
+If VC++ is missing, the application will not launch.
+
+Please install the following beforehand:
+- **Visual C++ 2015–2022 Redistributable (x64)**
+
+Environments without VC++ installed are outside the scope of operation guarantees.
+
+If you cannot agree to the above conditions, please refrain from purchasing.
 
 🟦 About the Activation ID and DRM One-Time Installer  
 This product uses a dedicated DRM system that verifies your PC environment and Activation ID  
