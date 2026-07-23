@@ -13,6 +13,21 @@
 内容にご同意いただけない場合は、購入はお控えください。
 本製品は安売りを行いません。理解し、同意いただける方のみご購入ください。
 
+【購入条件（重要）】
+本製品は「16GB 以上の物理メモリ」「単独実行」を満たす環境でのみ動作します。
+Stable Diffusion 1.x モデルはロード時に 9〜11GB のピークメモリを必要とするため、
+16GB 未満の環境では起動できません。
+
+8GB や 4GB の環境（Windows Sandbox 等）は非対応です。
+これらの環境ではモデルのロードができず、画像生成は行えません。
+該当環境の方は絶対に購入しないでください。
+
+また、16GB 環境であっても、他のアプリケーションを同時に起動すると
+メモリ不足により生成処理が失敗します。
+本製品は「単独で実行すること」を前提としています。
+
+上記条件に同意できない場合は、購入をお控えください。
+
 🟦 アクティベーションIDとDRMワンタイムインストーラーについて
 本製品は、正規ユーザー様のみが安全にご利用いただけるよう、
 PC環境とアクティベーションIDを照合する専用DRMを採用しています。
@@ -235,6 +250,25 @@ ts_ai_kobo の Activator は以下のように安全な構造で設計されて�
 Before considering the purchase of this product, please make sure to read the product manual and the information below.  
 If you do not agree with the contents, please refrain from purchasing.  
 This product will not be sold at a discount. It is intended only for those who understand and agree with these terms.
+
+【Purchase Requirements (Important)】
+
+This product only works in environments that meet BOTH of the following conditions:
+- **16GB or more physical memory**
+- **Running the application alone (no other apps running simultaneously)**
+
+Stable Diffusion 1.x models require **9–11GB of peak memory** when loading.
+For this reason, any environment with **less than 16GB of RAM cannot launch the product**.
+
+**8GB or 4GB environments (including Windows Sandbox) are not supported.**
+In these environments, the model cannot be loaded and image generation is impossible.
+If your PC has less than 16GB of RAM, **do NOT purchase this product.**
+
+Even on a 16GB system, running other applications at the same time may cause
+memory shortages and generation failures.  
+This product is designed to run **as the only active application**.
+
+If you cannot agree to these conditions, please refrain from purchasing.
 
 🟦 About the Activation ID and DRM One-Time Installer  
 This product uses a dedicated DRM system that verifies your PC environment and Activation ID  
