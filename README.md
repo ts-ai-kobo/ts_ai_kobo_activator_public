@@ -1,6 +1,7 @@
 ※ English version is available below. Please scroll down if you prefer English.
 
 ※ If you prefer English, please visit the dedicated English page:
+
    https://github.com/ts-ai-kobo/ts_ai_kobo_activator_public_EN
 
 ## Developer Philosophy
