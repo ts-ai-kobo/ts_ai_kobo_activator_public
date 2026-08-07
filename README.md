@@ -9,7 +9,7 @@
 製品マニュアルはこちら  
 → [📥 TsAI_Pose_engine_manual.pdf をダウンロード](https://github.com/ts-ai-kobo/ts_ai_kobo_activator_public/releases/download/v1.0.0/TsAI_Pose_Engine_manual.pdf)
 
-ご購入検討される方はこちら
+購入先リンク
 → https://safinity.base.shop/
 
 英語版と日本語版があります。日本語版は２段目
