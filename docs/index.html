@@ -2,27 +2,82 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>七志が切る 第1話</title>
+    <title>TsAI Kobo – 作品一覧</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       body {
         margin: 0;
-        padding: 0;
-        background: #000;
+        padding: 20px;
+        background: #f5f5f5;
+        font-family: sans-serif;
       }
-      img.page {
-        width: 100vw;        /* 画面幅ぴったり */
-        height: auto;
-        display: block;
-        object-fit: cover;   /* Safariの縮小を止める */
-        object-position: center;
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 20px;
+      }
+      .card {
+        background: #fff;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      }
+      .thumb {
+        width: 100%;
+        border-radius: 6px;
+        margin-bottom: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
       }
     </style>
   </head>
   <body>
 
-    <img src="nanashi001_page1.jpg" class="page">
-    <img src="nanashi001_page2.jpg" class="page">
+    <h1>TsAI Kobo – 作品一覧</h1>
+
+    <div class="grid">
+
+      <!-- 販促漫画 おじいちゃんち-->
+      <div class="card">
+        <a href="promo001/">
+          <img src="promo001.jpg" class="thumb">
+          販促漫画 おじいちゃんち（1本）
+        </a>
+      </div>
+
+      <!-- うちののんちゃん 第1話 -->
+      <div class="card">
+        <a href="nonchan001/">
+          <img src="nonchan001.jpg" class="thumb">
+          うちののんちゃん 第1話
+        </a>
+      </div>
+
+      <!-- うちののんちゃん 第2話 -->
+      <div class="card">
+        <a href="nonchan002/">
+          <img src="nonchan002.jpg" class="thumb">
+          うちののんちゃん 第2話
+        </a>
+      </div>
+
+      <!-- 七志が切る 第1話 -->
+      <div class="card">
+        <a href="nanashi001/">
+          <img src="nanashi001.jpg" class="thumb">
+          七志が切る 第1話
+        </a>
+      </div>
+
+    </div>
 
   </body>
 </html>
