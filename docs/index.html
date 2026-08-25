@@ -2,7 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>TsAI Kobo – 作品一覧</title>
+    <title>TsAI Kobo – 成果物一覧</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       body {
@@ -15,70 +15,56 @@
         text-align: center;
         margin-bottom: 30px;
       }
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-        gap: 20px;
+      ul {
+        list-style: none;
+        padding: 0;
       }
-      .card {
+      li {
         background: #fff;
-        border-radius: 10px;
-        padding: 10px;
-        text-align: center;
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 8px;
         box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-      }
-      .thumb {
-        width: 100%;
-        border-radius: 6px;
-        margin-bottom: 10px;
       }
       a {
         text-decoration: none;
         color: #333;
         font-weight: bold;
+        font-size: 18px;
       }
     </style>
   </head>
   <body>
 
-    <h1>TsAI Kobo – 作品一覧</h1>
+    <h1>TsAI Kobo – 成果物一覧</h1>
 
-    <div class="grid">
+    <ul>
 
-    <!-- 販促漫画 おじいちゃんち-->
-    <div class="card">
-      <a href="promo001.jpg">
-        <img src="promo001.jpg" class="thumb">
-        販促漫画 おじいちゃんち（1本）
-      </a>
-    </div>
-    
-    <!-- うちののんちゃん 第1話 -->
-    <div class="card">
-      <a href="nonchan001.jpg">
-        <img src="nonchan001.jpg" class="thumb">
-        うちののんちゃん 第1話
-      </a>
-    </div>
-    
-    <!-- うちののんちゃん 第2話 -->
-    <div class="card">
-      <a href="nonchan002.jpg">
-        <img src="nonchan002.jpg" class="thumb">
-        うちののんちゃん 第2話
-      </a>
-    </div>
-    
-    <!-- 七志が切る 第1話 -->
-    <div class="card">
-      <a href="nanashi001.jpg">
-        <img src="nanashi001.jpg" class="thumb">
-        七志が切る 第1話
-      </a>
-    </div>
+      <li>
+        <a href="promo001.jpg">販促漫画 おじいちゃんち（1本）</a>
+      </li>
 
+      <li>
+        <a href="nonchan001.jpg">うちののんちゃん 第1話</a>
+      </li>
 
-    </div>
+      <li>
+        <a href="nonchan002.jpg">うちののんちゃん 第2話</a>
+      </li>
+
+      <li>
+        <a href="nanashi001.jpg">七志が切る 第1話</a>
+      </li>
+
+    </ul>
+
+    <!-- ▼ここに説明文を入れる（最適位置）▼ -->
+    <p style="font-size:14px; color:#555; line-height:1.6; margin-top:30px;">
+      ※掲載している4コマ漫画は、iPhoneなどスマートフォンでの閲覧に特化した解像度で制作しています。<br>
+      GIMP 2.10.24 を使用し、各コマ枠は 375×475 / 435×475、タイトル枠は 95×475 のサイズで構成しています。<br>
+      最終的な縦長画像は 540×1888 程度のスマホ向け解像度となるため、PCで拡大表示すると画像が荒く見える場合があります。<br>
+      スマートフォンでの閲覧を前提とした資料としてご理解ください。
+    </p>
 
   </body>
 </html>
