@@ -11,9 +11,11 @@
         background: #000;
       }
       img.page {
-        width: 100vw;      /* 画面幅ぴったり */
+        width: 100vw;        /* 画面幅ぴったり */
         height: auto;
         display: block;
+        object-fit: cover;   /* Safariの縮小を止める */
+        object-position: center;
       }
     </style>
   </head>
